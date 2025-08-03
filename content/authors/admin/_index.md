@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Java Developer
+role: Java Backend Developer
 
 # Organizations/Affiliations to display in Biography blox
 #organizations:
@@ -85,7 +85,7 @@ education:
 
 work:
   - position: Backend Software Developer
-    company_name: IceTea Software
+    company_name: Icetea Software
     company_url: 'https://iceteasoftware.com/'
     company_logo: ''
     date_start: 2024-11-01
@@ -109,9 +109,21 @@ work:
       - Participating in Agile ceremonies such as sprint planning, daily stand-ups, and retrospectives
       - Contributing to the development of technical documentation and knowledge sharing within the team
 
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+  - position: Backend Software Developer
+    company_name: NGS Consulting Joint Stock Company
+    company_url: 'https://ngsc.vn/'
+    company_logo: ''
+    date_start: 2024-11-01
+    date_end: 2025-07-31
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+  - position: Backend Software Developer
+    company_name: NGS Consulting Joint Stock Company
+    company_url: 'https://ngsc.vn/'
     company_logo: ''
     date_start: 2024-11-01
     date_end: 2025-07-31
