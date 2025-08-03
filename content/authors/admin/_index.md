@@ -214,4 +214,4 @@ Xin chào, mình là Tuấn. Mình đến từ Hà Tĩnh. Tốt nghiệp ngành 
 Yêu thích và sử dụng Linux, mình viết các bài hướng dẫn cài đặt và cấu hình Linux OS, cũng như các công cụ lập trình trên nền tảng này. Các bạn quan tâm tham khảo tại Linux
 Mình dịch các bài viết công nghệ về Java và học được rất nhiều từ việc dịch bài. Xem các bài mình dịch tại Bai viet
 
-Mã nguồn mở của website này có sẵn trên Github. Tài liệu sử dụng được nhà phát triển viết chi tiết tại  Cảm ơn bạn đã ghé thăm.
+Mã nguồn mở của website này có sẵn trên Github. Tài liệu sử dụng được nhà phát triển viết chi tiết tại  Cảm ơn bạn đã ghé thăm trang web của mình. Nếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại liên hệ với mình qua email hoặc các mạng xã hội ở trên.
