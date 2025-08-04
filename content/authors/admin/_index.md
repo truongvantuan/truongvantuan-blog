@@ -55,33 +55,39 @@ interests:
 
 education:
   - area: Java Web Developer
-    institution: Trung tâm TechMaster Việt Nam
+    institution: TechMaster Vietnam
     date_start: 2021-01-01
     date_end: 2021-12-31
     summary: |
-      Java Programming, Spring Framework, Spring Boot, DevOps.
+      Completed a comprehensive Java Web Development course, covering:
+      - Java programming fundamentals
+      - Web development with Java
+      - Spring Framework, Spring Boot
+      - RESTful API design and development      
+      - Front-end technologies (HTML, CSS, JavaScript)
+      - Deployment and DevOps practices
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
   - area: Java Programing
-    institution: Học liệu mở từ University of Helsinki
+    institution: University of Helsinki (Open Online Courses)
     date_start: 2020-01-01
     date_end: 2020-12-31
-    # summary: |
-    #   GPA: 3.8/4.0
-
-    #   Courses included:
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    summary: |
+      Completed open online courses in programming with Java, including:
+      - Java Programming I & II
 
   - area: Mechanical Engineering
-    institution: Đại học Bách Khoa Hà Nội
+    institution: Hanoi University of Science and Technology
     date_start: 2014-01-01
     date_end: 2018-12-31
-    # summary: |
-    #   GPA: 3.4/4.0
-      
-    #   Courses included:
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    summary: |
+      Studied Mechanical Engineering with a focus on:
+      - Thermodynamics
+      - Fluid Mechanics
+      - Materials Science
+      - Manufacturing Processes
+      - Mechanical Design and Analysis
 
 work:
   - position: Backend Software Developer
@@ -92,34 +98,36 @@ work:
     date_end: 2025-07-31
     summary: |2-
       Responsibilities include:
-      - Infrastructure Management & Containerization:
-        - asd
-        - asd
-      - Kubernetes Operations & Administration:
-        - asd
-        - asd
-        - 
-      - Developing and maintaining backend services using Java and Spring Boot
-      - Developing and maintaining Infrastructure for the projects
-      - Working with the team to design and implement new features
-      - Collaborating with other developers to ensure code quality and best practices
-      - Participating in code reviews and providing feedback to team members
-      - Writing unit tests and ensuring code coverage
-      - Troubleshooting and debugging issues in production and development environments
-      - Participating in Agile ceremonies such as sprint planning, daily stand-ups, and retrospectives
-      - Contributing to the development of technical documentation and knowledge sharing within the team
-
-  - position: Backend Software Developer
+      - Infrastructure Deployment, Management & Containerization:
+        - Setting up and managing staging and development environments on Kubernetes clusters.
+        - Containerizing applications using Docker.
+        - Deploying and managing containerized applications on Kubernetes clusters.
+        - Setting up and managing CI/CD pipelines for automated deployment.
+        - Monitoring and logging of containerized applications.
+        - Ensuring high availability and scalability of applications.
+      - Backend Development & API Design:
+        - Developing and maintaining backend services using Java and Spring Boot.
+        - Designing and implementing RESTful APIs for frontend consumption.
+        - Collaborating with frontend developers to ensure seamless integration.
+        - Writing unit tests and ensuring code quality.
+        - Participating in code reviews and providing feedback to team members.
+        - Troubleshooting and debugging issues in production and development environments
+        - Participating in Agile ceremonies such as sprint planning, daily stand-ups, and retrospectives
+        - Contributed to the development of technical documentation and knowledge sharing within the team.
+  
+  - position: Software Developer
     company_name: NGS Consulting Joint Stock Company
     company_url: 'https://ngsc.vn/'
     company_logo: ''
-    date_start: 2024-11-01
-    date_end: 2025-07-31
-    summary: |
+    location: Ha Noi, Viet Nam
+    date_start: 2024-06-01
+    date_end: 2025-03-31
+    summary: |2-
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Integrated Zabbix API via a custom connector and base service for secure, validated interactions.
+      - Designed and implemented R2DBC repositories using QueryDSL for advanced querying, joins, pagination, and sorting.
+      - Built microservices monitoring and alerting with Opentelemetry, Grafana, Prometheus, and centralized logging using the ELK stack.
+      - Developed business logic for device deployment, batch synchronization from external services, and a real-time device dashboard.
 
   - position: Backend Software Developer
     company_name: NGS Consulting Joint Stock Company
@@ -136,7 +144,35 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Languages
+    items:
+      - name: Java
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: Bash scripting
+        description: ''
+        percent: 100
+        icon: chart-bar
+      - name: SQL
+        description: ''
+        percent: 40
+        icon: circle-stack
+  - name: Database
+    items:
+      - name: MySQL, PostgreSQL
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: ElasticSearch, MongoDB
+        description: ''
+        percent: 100
+        icon: chart-bar
+      - name: Redis
+        description: ''
+        percent: 40
+        icon: circle-stack
+  - name: Frameworks
     items:
       - name: Python
         description: ''
@@ -150,22 +186,6 @@ skills:
         description: ''
         percent: 40
         icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
 
 languages:
   - name: English
@@ -180,38 +200,42 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
+  - title: Java Programing I
+    url: https://java-programming.mooc.fi/
+    certificate_url: https://certificates.mooc.fi/validate/gbg279lhnds
     date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+    awarder: mooc.fi
+    icon: edx
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+      I studied the foundational concept of Java programming, including:
+      - Object-oriented programming (OOP) principles.
+      - Java syntax and semantics.
+      - Data types, variables, and operators.
+      - Control structures (if statements, loops, etc.).
+      - Java core libraries and APIs.
+      - Methods and functions.
+      - Exception handling.
+      - Basic input/output operations.
+  - title: Java Programing II
+    url: https://java-programming.mooc.fi/
+    certificate_url: https://certificates.mooc.fi/validate/tfjzxnfu47t
     date: '2023-07-01'
-    awarder: edX
+    awarder: mooc.fi
     icon: edx
     summary: |
       Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      - Advanced Java programming concepts.
+      - Object-oriented programming (OOP) principles.
+      - Java collections framework.
+      - Java file I/O operations.
 ---
 
 ## About Me
 
-Xin chào, mình là Tuấn. Mình đến từ Hà Tĩnh. Tốt nghiệp ngành Cơ khí Chế Tạo Máy. Hiện đang trong quá trình học tập để trở thành lập trình viên Java Web - Spring Boot Backend. Với kinh nghiệm và kiến thức về lĩnh vực cơ khí, mong muốn được tham gia làm việc tại các dự án về nhà máy và sản xuất.
+Hello, I'm Tuan from Ha Tinh, a Java Web Developer with 5 years of experience specializing in Spring Boot backend development. My journey began with a degree in Mechanical Engineering, which gives me a unique perspective and a strong foundation for working on projects related to factories and manufacturing systems.
 
-Yêu thích và sử dụng Linux, mình viết các bài hướng dẫn cài đặt và cấu hình Linux OS, cũng như các công cụ lập trình trên nền tảng này. Các bạn quan tâm tham khảo tại Linux
-Mình dịch các bài viết công nghệ về Java và học được rất nhiều từ việc dịch bài. Xem các bài mình dịch tại Bai viet
+I am passionate about Linux and frequently write guides on installing, configuring, and optimizing Linux operating systems, as well as programming tools for this platform. You can explore my Linux tutorials for practical tips and solutions.
 
-Mã nguồn mở của website này có sẵn trên Github. Tài liệu sử dụng được nhà phát triển viết chi tiết tại  Cảm ơn bạn đã ghé thăm trang web của mình. Nếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại liên hệ với mình qua email hoặc các mạng xã hội ở trên.
+In addition to development, I actively translate technology articles about Java, deepening my expertise and sharing knowledge with the community. My translated articles are available in the "Bai viet" section.
+
+The source code for this website is open on GitHub, with comprehensive usage documentation provided. Thank you for visiting my site—if you have any questions, feel free to reach out via email or through the social networks listed above.

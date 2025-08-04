@@ -12,7 +12,7 @@ baseURL: 'https://truongvantuan.github.io/'
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: vi
+defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true

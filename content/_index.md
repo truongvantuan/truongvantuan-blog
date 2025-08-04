@@ -29,50 +29,75 @@ sections:
             brightness: 1.0
           size: cover
           position: center
-          parallax: false
-  - block: markdown
+          parallax: true
+  - block: resume-skills
     content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+      title: Skills & Technical
+      username: admin
+    design:
+      show_skill_percentage: false
+  - block: resume-experience
+    content:
+      username: admin
+    design:
+      # Hugo date format
+      date_format: 'January 2006'
+      # Education or Experience section first?
+      is_education_first: false
+  - block: resume-awards
+    content:
+      title: Certifications
+      username: admin
+  # - block: resume-languages
+  #   content:
+  #     title: Languages
+  #     username: admin
+  #   design:
+  #     show_skill_percentage: false
+  
+  # - block: markdown
+  #   content:
+  #     title: '📚 My Research'
+  #     subtitle: ''
+  #     text: |-
+  #       Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+  #       I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
+  #       Please reach out to collaborate 😃
+  #   design:
+  #     columns: '1'
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 2
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: ""
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: false
+  #   design:
+  #     view: citation
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     view: article-grid
+  #     columns: 1
   - block: collection
     id: news
     content:
